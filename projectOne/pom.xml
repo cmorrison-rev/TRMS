@@ -14,13 +14,11 @@
 		code from git. Instead, we create this pom.xml file and let Maven set up 
 		the application for them. -->
 	<properties>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
-	</properties>
-	<properties>
-  		<sonar.projectKey>cmorrison-rev_TRMS</sonar.projectKey>
+		<sonar.projectKey>com.cmorr.ReactiveTRMS:projectOne</sonar.projectKey>
   		<sonar.organization>cmorrison-rev</sonar.organization>
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 	
 
