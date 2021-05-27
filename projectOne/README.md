@@ -1,4 +1,20 @@
-# TRMS
-The Tuition Reimbursement System, TRMS, allows users to submit reimbursements for courses and training. The submitted reimbursement must be approved by that employee's supervisor, department head, and benefits coordinator. The benefits coordinator then reviews the grade received before finalizing the reimbursement.
+#TRMS
+Tuition Reimbursement Management System RESTful API. Employees can submit a reimbursemnt request and that request will be passed along and approved by the appropriate positions.
 
-This is a test.
+##Technologies
+- Java 8
+- Javalin
+- AWS Keyspaces
+- Datastax
+- AWS S3
+- Spring
+- 
+##Getting Started
+git clone https://github.com/DuskDaleSpider/TRMS.git
+Create a truststore for keyspaces
+run mvn package within the repo directory
+Set environment variables
+AWS_USER - Username for aws keyspaces-specific credentials
+AWS_PASS - Password for aws keyspaces-specific credentials
+TRUSTSTORE_PASS - Password used for the created truststore
+copy target/trms.jar and your truststore to the same dir
