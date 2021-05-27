@@ -11,9 +11,9 @@ Tuition Reimbursement Management System RESTful API. Employees can submit a reim
 
 ## Getting Started
 git clone 
-Create a truststore for keyspaces
-run mvn package within the repo directory
-Set environment variables
+Create a truststore for keyspaces 
+run mvn package within the repo directory 
+Set environment variables 
 AWS_USER - Username for aws keyspaces-specific credentials
 AWS_PASS - Password for aws keyspaces-specific credentials
 TRUSTSTORE_PASS - Password used for the created truststore
