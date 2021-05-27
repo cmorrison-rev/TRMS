@@ -9,39 +9,22 @@ Tuition Reimbursement Management System RESTful API. Employees can submit a reim
 - Jackson - 2.10.3
 - DataStax - 4.11.0
 
-## Getting Started
-`git clone  `   
-Create a truststore for keyspaces  
-run mvn package within the repo directory  
-Set environment variables  
+## Setup
+`git clone https://github.com/cmorrison-rev/TRMS.git`   
+
+### Create a keystore (AWS specific) within `src/main/resources`
+```bash
+curl https://certs.secureserver.net/repository/sf-class2-root.crt -O  
+openssl x509 -outform der -in sf-class2-root.crt -out temp_file.der  
+keytool -import -alias cassandra -keystore cassandra_truststore.jks -file temp_file.der  
+```
+### Set environment variables for the Driver.class run configuration
 ```
 AWS_USER - Username for aws keyspaces-specific credentials  
 AWS_PASS - Password for aws keyspaces-specific credentials  
 TRUSTSTORE_PASS - Password used for the created truststore  
 ```
-# Foobar
-
-Foobar is a Python library for dealing with word pluralization.
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
-## Usage
-
-```java
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Contributions are closed as this is a private company project.
 
-Please make sure to update tests as appropriate.
+Please feel free to suggest any changes :)
