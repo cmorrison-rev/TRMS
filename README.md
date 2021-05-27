@@ -9,6 +9,18 @@ Tuition Reimbursement Management System RESTful API. Employees can submit a reim
 - Jackson - 2.10.3
 - DataStax - 4.11.0
 
+## Features
+### Implemented
+- Add employees with different access levels and restrictions
+- Login/Logout for user access, unregistered user access provided in some instances
+- Add reimbursement forms with differing urgency for date/time priority
+- Upload and retrieve documents to AWS S3 bucket to provide proof of approval
+- Auto reimbursement amount adjustment upon form submission
+
+### To-Do
+- Approval heirarchy chain between administrative roles
+- File validation and tethering to submission forms
+
 ## Setup
 `git clone https://github.com/cmorrison-rev/TRMS.git`   
 
