@@ -2,12 +2,12 @@
 Tuition Reimbursement Management System RESTful API. Employees can submit a reimbursemnt request and that request will be passed along and approved by the appropriate positions.
 
 ## Technologies
--Java 8
--Javalin
--AWS Keyspaces
--Datastax
--AWS S3
--Spring
+- Java 8
+- Javalin
+- AWS Keyspaces
+- Datastax
+- AWS S3
+- Spring
 
 ## Getting Started
 git clone 
