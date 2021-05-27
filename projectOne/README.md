@@ -10,11 +10,11 @@ Tuition Reimbursement Management System RESTful API. Employees can submit a reim
 - Spring
 
 ## Getting Started
-git clone  
+`git clone  `
 Create a truststore for keyspaces  
 run mvn package within the repo directory  
 Set environment variables  
-AWS_USER - Username for aws keyspaces-specific credentials  
+`AWS_USER - Username for aws keyspaces-specific credentials  
 AWS_PASS - Password for aws keyspaces-specific credentials  
-TRUSTSTORE_PASS - Password used for the created truststore  
+TRUSTSTORE_PASS - Password used for the created truststore`  
 copy target/trms.jar and your truststore to the same dir  
