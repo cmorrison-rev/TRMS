@@ -16,5 +16,5 @@ run mvn package within the repo directory
 Set environment variables  
 `AWS_USER - Username for aws keyspaces-specific credentials  
 AWS_PASS - Password for aws keyspaces-specific credentials  
-TRUSTSTORE_PASS - Password used for the created truststore`  
+TRUSTSTORE_PASS - Password used for the created truststore  `
 copy target/trms.jar and your truststore to the same dir  
